@@ -1,0 +1,26 @@
+.fit-content {
+	max-width:fit-content
+}
+
+.panel-mobile{
+	max-width: 100%
+}
+.banner-title{
+    width:800px;
+}
+
+.banner-container{
+    background-image: linear-gradient(to right, #0d1d33, #192642, #272e51, #37375f, #493f6d);
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .banner-title{
+        width:100%;
+        font-size:23px;
+    }
+  }
+  
